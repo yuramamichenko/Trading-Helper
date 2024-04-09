@@ -39,4 +39,5 @@ build/
 
 input.txt
 
-out/artifacts/MyFX_jar/MyFX.jar
+MyFX.jar
+out/
