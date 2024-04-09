@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="248.0" prefWidth="447.0" style="-fx-background-color: #1D2631;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.FXparts.JavaFXController">
+
+    <GridPane layoutX="338.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="12.0" minWidth="12.0" prefWidth="12.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="12.0" minWidth="12.0" prefWidth="12.0" />
+        </columnConstraints>
+        <rowConstraints>
+         <RowConstraints maxHeight="27.0" minHeight="27.0" prefHeight="27.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="6.0" minHeight="6.0" prefHeight="6.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="6.0" minHeight="6.0" prefHeight="6.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="6.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <Button mnemonicParsing="false" onAction="#onStopButton" prefWidth="150.0" style="-fx-background-color: #FF4158;" text="Stop" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="counter" alignment="CENTER" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="---" textFill="#ff8e00" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+            <ProgressBar fx:id="progressBar" prefHeight="25.0" prefWidth="150.0" progress="0.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Group GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Timeout:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Loading value:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <ProgressBar fx:id="buyTimeoutBar" prefHeight="25.0" prefWidth="150.0" progress="0.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Button mnemonicParsing="false" onAction="#onStartButton" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #13C57E;" text="Start" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Last trade:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+            <Label fx:id="openings" alignment="BASELINE_CENTER" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="---" textFill="#ff8e00" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+            <Label fx:id="lastTrade" alignment="BASELINE_CENTER" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="---" textFill="#ff8e00" GridPane.columnIndex="1" GridPane.rowIndex="17" />
+            <Label fx:id="openings1" alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Openings count:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Current RSI:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+            <Label fx:id="userInfoLabel" alignment="TOP_CENTER" contentDisplay="TOP" prefHeight="12.0" prefWidth="150.0" text="User not conected..." textAlignment="CENTER" textFill="#125bff" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets>
+            </Label>
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Close Timeout:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <ProgressBar fx:id="sellTimeoutBar" prefHeight="25.0" prefWidth="150.0" progress="0.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+        </children>
+    </GridPane>
+    <GridPane>
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="12.0" minWidth="12.0" prefWidth="12.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="12.0" minWidth="12.0" prefWidth="12.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="12.0" minWidth="12.0" prefWidth="12.0" />
+        </columnConstraints>
+        <rowConstraints>
+         <RowConstraints maxHeight="27.0" minHeight="27.0" prefHeight="27.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="12.0" minHeight="12.0" prefHeight="12.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <children>
+            <ChoiceBox fx:id="indTF" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <ChoiceBox fx:id="indPeriodBox" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="TimeFrame:" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Length:" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <ChoiceBox fx:id="tradingTickers" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <ChoiceBox fx:id="tradingSide" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Direction:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Group GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <children>
+                    <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Ticker:" textFill="WHITE" />
+                </children>
+            </Group>
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Quantity:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField fx:id="quantity" prefHeight="25.0" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField fx:id="closeLevel" prefHeight="25.0" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <TextField fx:id="openLevel" prefHeight="25.0" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Open level:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Timeout (minutes):" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Close level:" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <ChoiceBox fx:id="orderTimeout" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Button mnemonicParsing="false" onAction="#manualOpen" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #111A24;" text="Open" textFill="#125bff" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+            <Button mnemonicParsing="false" onAction="#manualClose" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #111A24;" text="Close ALL" textFill="#125bff" GridPane.columnIndex="3" GridPane.rowIndex="15" />
+            <ChoiceBox fx:id="partlyClose" prefWidth="150.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Label alignment="BASELINE_LEFT" contentDisplay="CENTER" prefHeight="12.0" prefWidth="150.0" text="Partly closing:" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <CheckBox fx:id="profit" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="17.0" prefWidth="128.0" stylesheets="@styles.css" text="Close only in profit" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <Button mnemonicParsing="false" onAction="#initializeValues" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #111A24;" text="Save" textFill="#ff8e00" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+            <Button mnemonicParsing="false" onAction="#manualClosePart" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #111A24;" text="Close part" textFill="#125bff" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+        </children>
+    </GridPane>
+    <Line endX="-15.0" endY="-294.0" layoutX="352.0" layoutY="295.0" startX="-15.0" startY="24.0" stroke="#222b36" strokeWidth="4.0" />
+   <Line endX="-15.0" endY="-294.0" layoutX="528.0" layoutY="295.0" startX="-15.0" startY="24.0" stroke="#222b36" strokeWidth="4.0" />
+   <Line endX="-15.0" endY="-294.0" layoutX="16.0" layoutY="295.0" startX="-15.0" startY="24.0" stroke="#222b36" strokeWidth="5.0" />
+   <Line endX="134.0" endY="10.0" layoutX="379.0" layoutY="310.0" startX="-379.0" startY="10.0" stroke="#222b36" strokeWidth="4.0" />
+</AnchorPane>

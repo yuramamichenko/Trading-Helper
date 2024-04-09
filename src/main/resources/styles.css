@@ -1,0 +1,108 @@
+.choice-box {
+    -fx-text-fill: #ffffff; /* Text color */
+    -fx-background-color: #222B36; /* Background color */
+    -fx-focus-color: midnightblue; /* Focus color */
+    -fx-control-inner-background: #222B36; /* Inner background color */
+    -fx-prompt-text-fill: #ffffff; /* Prompt text color */
+    -fx-highlight-text-fill: #ffffff; /* Highlighted text color */
+    -fx-border-color: #222B36; /* Border color */
+}
+
+.choice-box .label {
+    -fx-text-fill: #ffffff; /* Text color of dropdown button */
+}
+
+.choice-box .context-menu {
+    -fx-border-color: #ff8e00;
+}
+
+
+.choice-box .arrow {
+    -fx-background-color:  #ff8e00; /* Arrow color */
+    -fx-background-insets: 0;
+}
+
+.choice-box .arrow-button {
+    -fx-background-color:  #222B36; /* Background color of dropdown button */
+    -fx-background-insets: 0;
+}
+
+.choice-box .arrow-button:hover {
+    -fx-background-color:  #333F4C; /* Hover background color of dropdown button */
+}
+
+.choice-box .arrow-button:pressed {
+    -fx-background-color:  #1A232C; /* Pressed background color of dropdown button */
+}
+
+.choice-box .arrow-button .arrow {
+    -fx-background-color: transparent; /* Transparent background for the arrow */
+    -fx-background-insets: 0;
+}
+
+.choice-box .arrow-button:hover .arrow {
+    -fx-background-color:  #333F4C; /* Hover background color for the arrow */
+}
+
+.choice-box .arrow-button:pressed .arrow {
+    -fx-background-color:  #1A232C; /* Pressed background color for the arrow */
+}
+
+
+
+
+
+.text-field {
+    -fx-text-fill: #ffffff; /* Text color */
+    -fx-background-color: #222B36; /* Background color */
+    -fx-prompt-text-fill: #ffffff; /* Prompt text color */
+    -fx-highlight-fill: #209CEE; /* Highlighted text color */
+    -fx-highlight-text-fill: #ffffff; /* Highlighted background color */
+    -fx-border-color: #222B36; /* Border color */
+}
+
+.text-field:focused {
+    -fx-border-color: #ff8e00; /* Border color when focused */
+    -fx-background-color: #222B36; /* Background color when focused */
+}
+
+.text-field:hover {
+    -fx-border-color: #ff8e00; /* Border color on hover */
+}
+
+.text-field .text {
+    -fx-fill: #ffffff; /* Text color */
+}
+
+
+
+
+.check-box {
+    -fx-text-fill: #ffffff; /* Text color */
+}
+
+.check-box .box {
+    -fx-background-color: #111A24; /* Box color */
+}
+
+.check-box:selected .box {
+    -fx-background-color: #ff8e00; /* Box color when selected */
+}
+
+.check-box:selected .box .mark {
+    -fx-background-color: transparent; /* Transparent background for the check mark */
+}
+
+
+
+/* progressbar.css */
+.progress-bar:determinate .track {
+    -fx-background-color: #222B36; /* Background color */
+    -fx-border-color: #222B36;
+}
+
+.progress-bar:determinate .bar {
+    -fx-background-color: #ff8e00; /* Progress color */
+}
+
+

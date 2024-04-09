@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.FXparts.JavaFXController">
+   <children>
+      <Button layoutX="364.0" layoutY="283.0" mnemonicParsing="false" onAction="#onStopButton" prefHeight="51.0" prefWidth="149.0" text="STOP" textFill="#b02525">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="363.0" layoutY="89.0" mnemonicParsing="false" onAction="#onStartButton" prefHeight="35.0" prefWidth="149.0" text="START">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="indTickers" layoutX="16.0" layoutY="164.0" prefWidth="150.0" />
+      <Label fx:id="counter" alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="146.0" prefHeight="0.0" prefWidth="150.0" text="0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="indTF" layoutX="16.0" layoutY="208.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="indPeriodBox" layoutX="14.0" layoutY="253.0" prefWidth="150.0" />
+      <ProgressBar fx:id="progressBar" layoutX="363.0" layoutY="204.0" prefHeight="25.0" prefWidth="150.0" progress="0.0" />
+      <PasswordField fx:id="apiSecret" layoutX="16.0" layoutY="93.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="123.0" prefHeight="17.0" prefWidth="150.0" text="2. Set Indicator values:" textFill="#2f00ff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="141.0" prefHeight="17.0" prefWidth="150.0" text="Ticker (based on Binance):" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="191.0" prefHeight="17.0" prefWidth="150.0" text="TimeFrame:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="234.0" prefHeight="17.0" prefWidth="150.0" text="Length:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="76.0" prefHeight="17.0" prefWidth="150.0" text="Secret key:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="34.0" prefHeight="17.0" prefWidth="150.0" text="Key:" />
+      <PasswordField fx:id="apiKey" layoutX="16.0" layoutY="51.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="150.0" text="1. Set User API values:" textFill="#2f00ff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="14.0" prefHeight="17.0" prefWidth="150.0" text="3. Set Srategy values:" textFill="#2f00ff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="tradingTickers" layoutX="181.0" layoutY="51.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="tradingSide" layoutX="181.0" layoutY="93.0" prefWidth="150.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="76.0" prefHeight="17.0" prefWidth="150.0" text="Direction:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="34.0" prefHeight="17.0" prefWidth="150.0" text="Ticker:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="118.0" prefHeight="17.0" prefWidth="75.0" text="Quantity:" />
+      <TextField fx:id="quantity" layoutX="181.0" layoutY="137.0" prefHeight="25.0" prefWidth="69.0" />
+      <TextField fx:id="closeLevel" layoutX="181.0" layoutY="226.0" prefHeight="25.0" prefWidth="150.0" />
+      <TextField fx:id="openLevel" layoutX="181.0" layoutY="180.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="162.0" prefHeight="17.0" prefWidth="150.0" text="Open order level:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="251.0" prefHeight="17.0" prefWidth="150.0" text="Timeout (minutes):" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="181.0" layoutY="209.0" prefHeight="17.0" prefWidth="150.0" text="Position close level:" />
+      <ChoiceBox fx:id="orderTimeout" layoutX="181.0" layoutY="276.0" prefWidth="150.0" />
+      <Button layoutX="16.0" layoutY="308.0" mnemonicParsing="false" onAction="#initializeValues" prefHeight="25.0" prefWidth="310.0" text="4. Initialize Values!" textFill="#2f00ff">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button layoutX="363.0" layoutY="19.0" mnemonicParsing="false" onAction="#manualOpen" prefHeight="25.0" prefWidth="150.0" text="Manual open" />
+      <Button layoutX="363.0" layoutY="51.0" mnemonicParsing="false" onAction="#manualClose" prefHeight="25.0" prefWidth="149.0" text="Manual close" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="256.0" layoutY="118.0" prefHeight="17.0" prefWidth="75.0" text="Explanation:" textFill="#b02525" />
+      <ChoiceBox fx:id="explanation" layoutX="256.0" layoutY="137.0" prefHeight="25.0" prefWidth="75.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="185.0" prefHeight="17.0" prefWidth="150.0" text="Indicator progress:" />
+      <ProgressBar fx:id="buyTimeoutBar" layoutX="363.0" layoutY="254.0" prefHeight="25.0" prefWidth="149.0" progress="0.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="363.0" layoutY="233.0" prefHeight="17.0" prefWidth="150.0" text="Timeout progress:" />
+      <Line endX="-38.0" endY="248.5" layoutX="380.0" layoutY="100.0" startX="-38.0" startY="-100.0" />
+      <Label layoutX="22.0" layoutY="284.0" text="To reassign values restart app" textFill="#bc7502">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
