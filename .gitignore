@@ -1,8 +1,2 @@
 input.txt
-MyFX.jar
-MyFX.iml
-mvnw
-mvnw.cmd
-/.idea/
-TradingHelper.iml
-/.mvn/
+/target/

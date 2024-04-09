@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyFX:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5daec86-a762-4d98-a6c8-47ff155e3cae" name="Changes" comment="Remove large file from origin">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yuramamichenko"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f37816f6-d16a-4ade-8f33-5c8501c74373" />
+        <option name="url" value="https://github.com/yuramamichenko/Trading-Helper.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2amHTnX2adMXkUWd66kWCvf5urc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Controller.executor": "Run",
+    "Application.IndicatorsService.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Signature.executor": "Run",
+    "Application.Starter.executor": "Run",
+    "Application.TradingHelper.executor": "Run",
+    "Maven.MyFX [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/OldIdeaProjects/MyFX",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.41954023",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OldIdeaProjects\MyFX" />
+      <recent name="D:\OldIdeaProjects\MyFX\src\main\resources" />
+      <recent name="C:\Users\User\IdeaProjects\MyFX\src\main\java\com\example\myfx\TradingAppCore" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\MyFX\src\main\resources" />
+      <recent name="C:\Users\User\IdeaProjects\MyFX\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-734fdc6e" />
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-cf227e86" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5daec86-a762-4d98-a6c8-47ff155e3cae" name="Changes" comment="" />
+      <created>1704916845953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704916845953</updated>
+      <workItem from="1704916847654" duration="559000" />
+      <workItem from="1704917921848" duration="2310000" />
+      <workItem from="1704964420440" duration="414000" />
+      <workItem from="1704966104101" duration="4807000" />
+      <workItem from="1704973023935" duration="1319000" />
+      <workItem from="1705001963584" duration="704000" />
+      <workItem from="1705003395968" duration="856000" />
+      <workItem from="1705078448707" duration="371000" />
+      <workItem from="1705079083823" duration="5238000" />
+      <workItem from="1705254605162" duration="2568000" />
+      <workItem from="1705328309690" duration="1888000" />
+      <workItem from="1705342723146" duration="6977000" />
+      <workItem from="1705388975937" duration="6285000" />
+      <workItem from="1705405246366" duration="1726000" />
+      <workItem from="1705416134189" duration="16555000" />
+      <workItem from="1705468182655" duration="6980000" />
+      <workItem from="1705482630905" duration="1231000" />
+      <workItem from="1705507093285" duration="595000" />
+      <workItem from="1705560547198" duration="3447000" />
+      <workItem from="1705593469122" duration="2399000" />
+      <workItem from="1705864536721" duration="3197000" />
+      <workItem from="1705908028090" duration="47000" />
+      <workItem from="1705908656955" duration="171000" />
+      <workItem from="1707516412211" duration="317000" />
+      <workItem from="1707733144258" duration="40000" />
+      <workItem from="1708077636688" duration="8340000" />
+      <workItem from="1710935043408" duration="3921000" />
+      <workItem from="1710945981323" duration="238000" />
+      <workItem from="1710960267513" duration="4751000" />
+      <workItem from="1711047430036" duration="65000" />
+      <workItem from="1712040665151" duration="23268000" />
+      <workItem from="1712149732361" duration="6460000" />
+      <workItem from="1712170079646" duration="718000" />
+      <workItem from="1712217592780" duration="10599000" />
+      <workItem from="1712291255181" duration="846000" />
+      <workItem from="1712300976102" duration="10878000" />
+      <workItem from="1712332538076" duration="3293000" />
+      <workItem from="1712340899010" duration="2789000" />
+      <workItem from="1712344881471" duration="1459000" />
+      <workItem from="1712434523283" duration="4394000" />
+      <workItem from="1712673449682" duration="3401000" />
+    </task>
+    <task id="LOCAL-00001" summary="Remove out folder">
+      <option name="closed" value="true" />
+      <created>1712674353955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712674353955</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove large file from origin">
+      <option name="closed" value="true" />
+      <created>1712674893825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712674893825</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove out folder" />
+    <MESSAGE value="Remove large file from origin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove large file from origin" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
