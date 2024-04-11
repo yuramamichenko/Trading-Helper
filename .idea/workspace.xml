@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5daec86-a762-4d98-a6c8-47ff155e3cae" name="Changes" comment="Edition of file structure">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/FXparts/JavaFXController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/FXparts/JavaFXController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +159,8 @@
       <workItem from="1712344881471" duration="1459000" />
       <workItem from="1712434523283" duration="4394000" />
       <workItem from="1712673449682" duration="3946000" />
+      <workItem from="1712761019364" duration="73000" />
+      <workItem from="1712867394339" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="Remove out folder">
       <option name="closed" value="true" />
@@ -190,6 +191,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

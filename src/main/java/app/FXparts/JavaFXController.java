@@ -175,7 +175,7 @@ public class JavaFXController implements Initializable {
         int comm = Integer.parseInt(info.getPosCommByTicker());
         if (comm != 0) {
             if (profit.isSelected()) {
-                if (Integer.parseInt(info.getCurrentPnlByTicker()) >= comm) {
+                if (Integer.parseInt(info.getCurrentPnlByTicker()) >= comm * 2) {
                     closeAndPause();
                 }
             } else {
