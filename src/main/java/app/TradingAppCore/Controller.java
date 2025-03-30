@@ -5,12 +5,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Controller {
-//    public static void main(String[] args) {
-//        User u = new User();
-//        u.setKey("3Mwsofre7yG7aOc1NHB8iLHl");
-//        u.setSecret("Wy_ru4DAPSfxwVjIS3cPiT9Va9wPEDFv2-EtvxWNlA2MjRym");
-//        System.out.println(new Controller().getUserAccountInfo(u));
-//    }
+
     private User user;
     private String symbol, side;
     private int quantity;
